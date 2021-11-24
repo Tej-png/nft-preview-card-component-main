@@ -1,0 +1,134 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+    
+}
+
+.content {
+    position: relative;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow:  0 0px 35px 35px hsl(216, 67%, 11%);
+}
+.image-overlay {
+    position: absolute;
+    top: 42px;
+    left: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: hsl(178, 100%, 50%);
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.image-overlay:hover {
+    opacity: .8;
+}
+.shadow {
+    background-color: hsl(216, 53%, 12%);
+    box-shadow: 0 0 45px 5px hsl(217, 35%, 33%);;
+}
+
+.user-info {
+    margin-top: 15px;
+}
+
+hr {
+    border: 2px solid hsl(215, 32%, 27%);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.icons {
+    margin-top: 2px;
+    padding-right: 5px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h6,
+.time,
+.price,
+p {
+    font-size: 16px;
+    font-weight: 200;
+    color: hsl(215, 51%, 70%);
+}
+
+h6 {
+    margin: 20px 0 0 0;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    display: inline;
+    position: relative;
+    bottom: 10px;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.user-img {
+    width: 35px;
+    margin-right: 15px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.user-img:hover {
+    background: url('../images/icon-view.svg');
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 300px;
+
+    border-radius: 10px;
+}
+
