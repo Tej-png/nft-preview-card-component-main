@@ -132,3 +132,18 @@ span:hover {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 375px) {
+    .main-container {
+        padding: 0;
+        margin: 50px 25px;
+    }
+    .content {
+        max-width: 250px;
+    }
+    .image-overlay {
+        width: 250px;
+    }
+    .card-img {
+        width: 250px;
+    }
+  }
