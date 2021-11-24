@@ -142,6 +142,7 @@ span:hover {
     }
     .image-overlay {
         width: 250px;
+        height: 250px;
     }
     .card-img {
         width: 250px;
